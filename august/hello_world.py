@@ -7,3 +7,10 @@ for å ha
 kommentarer over 
 flere linjer 
 """
+x = 5
+y = 99
+z = "hællæh"
+print(x)
+print(y)
+print(str(z))
+
