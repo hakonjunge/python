@@ -12,5 +12,12 @@ y = 99
 z = "hællæh"
 print(x)
 print(y)
-print(str(z))
+print(z)
 
+x, y, z = "Programmering 1", "Webutvikling", "Innføring i design av digitale produkter"
+
+print(x, y, z)
+print(x + " " + y + "" + z) #samme resultat som den over
+
+kodesprak = ["python", "javascript", "html", "css"]
+print(kodesprak)
