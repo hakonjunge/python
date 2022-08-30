@@ -18,6 +18,10 @@ x, y, z = "Programmering 1", "Webutvikling", "Innføring i design av digitale pr
 
 print(x, y, z)
 print(x + " " + y + "" + z) #samme resultat som den over
+print(x)
+print(y)
+print(z)
+
 
 kodesprak = ["python", "javascript", "html", "css"]
 print(kodesprak)
