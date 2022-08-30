@@ -15,6 +15,6 @@ print("Femte person har spist {} kakestykker".format(person5))
 print()
 print(f"Summen av alle stykkene spist blir {antall_kaker}")
 
-print(f"{antall_kaker}/5 rundet ned til helt tall blir {gjennomsnitt}") #svaret ble 7
+print(f"{antall_kaker}/5 rundet ned til helt tall blir gjennomsnittet som er {gjennomsnitt}") #svaret ble 7
 
 

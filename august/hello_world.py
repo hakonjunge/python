@@ -32,8 +32,8 @@ print(kodesprak)
 
 import random
 abc = ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"," ","!","A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z","Æ","Ø","Å",",","."]
-txt = "Hello, World!"
-while txt != "":
+text = "Hello, World!"
+while text != "":
     word = abc[random.randrange(len(abc))]
     if not word == txt[0]:
         continue
