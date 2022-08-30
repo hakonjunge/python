@@ -7,4 +7,4 @@ print(f"a + b * c = {a+b*c}")
 print(f"( a + b ) * c = {(a+b)*c}")
 print(f"a / b / c = {a/b/c}")
 print(f"a / ( b / c ) = {a/(b/c)}")
-#Lagt
+#Lagt til variablene i regnestykker

@@ -1,7 +1,7 @@
-first_number = input("Skriv det første heltallet ")
-second_number = input("Skriv det andre heltallet ")
-test_number1 = int(first_number)
-test_number2 = int(second_number)
+test_number1 = input("Skriv det første tall ")
+test_number2 = input("Skriv det andre tall ")
+test_number1 = float(test_number1)
+test_number2 = float(test_number2)
 #Første del ber om tall
 
 print(f"Tallene du skrev var {test_number1} og {test_number2}")
