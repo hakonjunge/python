@@ -1,4 +1,4 @@
-'''
+Oppgave 1
 En variabel er en slags plassholder som et program skal huske, den kan brukes som en referanseverdi senere i programmet, den kan endres
 senere ettersom programmet kjøres i kronologisk rekkefølge.
 Man skriver en variabel for å gjøre det lettere å håndtere koden man skriver.
@@ -7,4 +7,15 @@ En variabel er det man setter i plassen for tall eller en «tekststreng».
 En streng er alt fra enkle symboler og bokstaver som: «x», «y», «z», men det kan også være setninger og ord.
 «Dette er et sitat som jeg skal sette inn» og «1» er begge "strenger"
 For å lage en variabel i Python skriver man ofte 'variabel = "setning eller symbol"’.
-'''
+
+Oppgave 2
+Deloppgave a) "Hamburger" er en string/tekststreng, den brukes når det er tekst man skal skrive og bruke i variabler.
+En string kan være setninger eller bokstaver.
+
+Deloppgave b) 5.52 er en float-datatype. en float er et positivt eller negativt tall som har desimal.
+Flere eksempel på float er 5.2, 1.0481936 eller -0.001.
+
+Deloppgave c) 4195 er en int (integer) som er hele positive eller negative tall.
+Det kan være alt fra -16381, 1, 7125, alle disse er int.
+
+Deloppgave d) False er en bool (Boolean). En bool brukes hvis den eneste verdien du kriver ned er True eller False.
