@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db25775f-eb7d-4032-afb9-3ebb1aff894d" name="Changes" comment="Oppgave 1">
-      <change afterPath="$PROJECT_DIR$/august/forelesninger/forelesing_2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/august/Oblig_2/Oppgave1.py" beforeDir="false" afterPath="$PROJECT_DIR$/august/Oblig_2/Oppgave1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/august/forelesing 1.py" beforeDir="false" afterPath="$PROJECT_DIR$/august/forelesninger/forelesing 1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/august/forsøk_oblig2.py" beforeDir="false" afterPath="$PROJECT_DIR$/august/forsøk/forsøk_oblig2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/august/hello_world.py" beforeDir="false" afterPath="$PROJECT_DIR$/august/forsøk/hello_world.py" afterDir="false" />
-    </list>
+    <list default="true" id="db25775f-eb7d-4032-afb9-3ebb1aff894d" name="Changes" comment="Oppgave 1" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,6 +34,13 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/august/forsøk" />
+      <recent name="$PROJECT_DIR$/august" />
+      <recent name="$PROJECT_DIR$/forelesninger" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="forelesing 1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python" />
@@ -128,7 +128,13 @@
       <option name="presentableId" value="LOCAL−00001" />
       <updated>1661858581516</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL−00002" summary="Oppgave 1">
+      <created>1662021319170</created>
+      <option name="number" value="LOCAL−00002" />
+      <option name="presentableId" value="LOCAL−00002" />
+      <updated>1662021319170</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
