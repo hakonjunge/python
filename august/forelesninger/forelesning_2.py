@@ -15,3 +15,5 @@ no_value = None
 print(no_value)
 
 #int(), float(), str(), bool()
+print(float(int_variable))
+print(int(float_variable))
