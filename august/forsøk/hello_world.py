@@ -55,10 +55,10 @@ def sysout(word):
 
 
 abc = ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"," ","!"]
-txt = "hello world!"
+txt = "liverpool er bedre enn city"
 while txt != "":
     l = Letter(abc[random.randrange(len(abc))])
     if not l.l == txt[0]:
         continue
     txt = txt[1:]
-    sysout((lambda z : f"{z}" if z.l in "hello world" else "\n")(l))'''
+    sysout((lambda z : f"{z}" if z.l in "liverpool er bedre enn city" else "\n")(l))'''
