@@ -8,7 +8,7 @@ players = int(input("Hvor mange skal spille? "))
 print()
 print("Resultat:")
 for tall in range(players):
-    tilfeldig = random.sample(range(0, 60), 3)
+    tilfeldig = random.sample(range(0, 61), 3)
     print(f"Spiller {i}: {tilfeldig}")
     scoringboard.append(tilfeldig)
     i += 1

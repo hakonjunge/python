@@ -19,12 +19,12 @@ valg = ["Regntøy",
         "Kart",
         "Kompass",
         "Drikkeflaske"]
-for ord in valg:
-    print(ord)
+for item in valg:
+    print(item)
 i = 1
 valg_lower = []
-for ord in valg:
-    valg_lower.append(ord.lower())
+for item in valg:
+    valg_lower.append(item.lower())
 
 print('\nÅ skrive "stopp" vil stoppe loopen og skrive ut en ferdig liste')
 
@@ -34,18 +34,23 @@ while True:
         pakkeliste.append(kommando)
         print(f"Du har lagt til {kommando} i lista di")
         print(pakkeliste)
+
     elif kommando == "stopp":
-        print(f"Du har valgt {kommando}")
-        print("\nLista di er som følger:")
-        for ord in pakkeliste:
-            print(f"{i}. {ord}")
+        print("Du har valgt stopp")
+        print(("\nDu har ikke lagt til noe i listen"
+               if len(pakkeliste) == 0
+               else "\nLista di er som følger:"))
+        for item in pakkeliste:
+            print(f"{i}. {item}")
             i += 1
         break
+
     if kommando == "slett":
-        slett = (str(input("Hva ønsker du å slette? ")).lower())
-        pakkeliste.remove(slett)
-        print(pakkeliste)
-        continue
+        slett = (input("Hva ønsker du å slette? ")).lower()
+        if slett in pakkeliste:
+            pakkeliste.remove(slett)
+            print(pakkeliste)
+            continue
 
     if kommando not in valg_lower:
         print(f"{kommando} er ikke mulig")
