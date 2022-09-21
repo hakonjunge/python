@@ -4,7 +4,5 @@ while i <= 101:
         print(i)
     i += 1
 print()
-for tall in range(9, 102):
-  if (tall % 2) != 0:
+for tall in range(9, 102, 2):
     print(tall)
-

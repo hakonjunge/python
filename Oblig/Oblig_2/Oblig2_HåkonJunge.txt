@@ -1,0 +1,13 @@
+Oppgave 1: Forklar hva en if-test/if-statement er med egne ord. Beskriv også sammenhengen mellom if, elif og else.
+En if-statement er en beskjed du gir scriptet, om at dersom noe bestemt står, så skal en handling forekomme.
+If, elif og else henger sammen på den måten at dersom if-testen er ikke blir utført, så går den videre til en elif-
+eller en else-test. Elif må stå under if. Og en else kan ikke stå over if eller elif.
+
+Oppgave 2: Forklar hva lister er i Python og hva de kan brukes til.
+En liste brukes til å lagre elementer. Det kan være tall, eller ord, eller hele setninger. Man bruker ofte lister for å
+slippe å krive inn alt manuelt hver gang. Du kan bruke det i en for-løkke, en if-statement blandt annet.
+
+Oppgave 3: Forklar hva "løkker" er og gi noen eksempler på tilfeller man kan ønske å benytte dem.
+En løkke er en kode som blir kjørt om igjen helt til den får beskjed om å stoppe. En for-løkke vet når den skal stoppe
+mens en while-løkke stopper når du gir den beskjed, det kan være ved å ha en teller som teller opp til et bestemt tall,
+eller ved hjelp av en break- eller exit-kommando.

@@ -1,4 +1,3 @@
-
 svar = 42
 close1 = 30
 close2 = 50
