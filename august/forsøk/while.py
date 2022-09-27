@@ -1,19 +1,4 @@
-i = 1
-while i < 421:
-    print(
-        "gg ez gg ez gg ez gg ez gg ez gg ez gg ez gg ez gg ez gg ez gg ez gg ez gg ez gg ez gg ez gg ez gg ez gg ez gg ez gg ez gg ez")
-    print(
-        "gg ez gg ez gg ez gg ez gg ez gg ez gg ez gg ez gg ez gg ez gg ez gg ez gg ez gg ez gg ez gg ez gg ez gg ez gg ez gg ez gg ez")
-    print(
-        "gg ez gg ez gg ez gg ez gg ez gg ez gg ez gg ez gg ez gg ez gg ez gg ez gg ez gg ez gg ez gg ez gg ez gg ez gg ez gg ez gg ez")
-    print(
-        "gg ez gg ez gg ez gg ez gg ez gg ez gg ez gg ez gg ez gg ez gg ez gg ez gg ez gg ez gg ez gg ez gg ez gg ez gg ez gg ez gg ez")
-    print(
-        "gg ez gg ez gg ez gg ez gg ez gg ez gg ez gg ez gg ez gg ez gg ez gg ez gg ez gg ez gg ez gg ez gg ez gg ez gg ez gg ez gg ez")
-    print(
-        "gg ez gg ez gg ez gg ez gg ez gg ez gg ez gg ez gg ez gg ez gg ez gg ez gg ez gg ez gg ez gg ez gg ez gg ez gg ez gg ez gg ez")
 
-    i += 1
 '''while i>0:
     tilfeldig = random.randint(0, 20)
     tilfeldig2 = random.randint(1, 3)
@@ -24,3 +9,7 @@ while i < 421:
     o += 1
     print(i)
 print()'''
+i = 1
+while True:
+    print(i)
+    i += 1

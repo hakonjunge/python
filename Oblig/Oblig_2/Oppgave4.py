@@ -9,7 +9,8 @@ for movies in old_list:
     if "Lord of the Rings: " in movies:
         print(movies)
 print()
-for books in old_list:
-    if "Lord of the Rings: " not in books:
-        books_not_lotr.append(books)
-        print(books)
+for movies in old_list:
+    if "Lord of the Rings: " not in movies:
+        books_not_lotr.append(movies)
+        print(movies)
+#Jeg har skrevet en for-løkke for bøker som er i filmene og en uten
