@@ -5,20 +5,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="db25775f-eb7d-4032-afb9-3ebb1aff894d" name="Changes" comment="Oppgave 1">
-      <change afterPath="$PROJECT_DIR$/september/forelesninger/collection_of_dictionaries.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/september/forelesninger/funksjoner.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9_september/forelesninger/collection_of_dictionaries.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9_september/forelesninger/file.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9_september/forelesninger/siste_forelesning_sept.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9_september/forelesninger/txt/Heisenberg.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9_september/forsøk/oddetall2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Oblig/Oblig_3/Oppgave_1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Oblig/Oblig_3/Oppgave_2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Oblig/Oblig_3/Oppgave_3.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Oblig/Oblig_2/Oppgave1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Oblig/Oblig_2/Oppgave1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Oblig/Oblig_2/Oppgave2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Oblig/Oblig_2/Oppgave2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Oblig/Oblig_2/Oppgave3.py" beforeDir="false" afterPath="$PROJECT_DIR$/Oblig/Oblig_2/Oppgave3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Oblig/Oblig_2/Oppgave4.py" beforeDir="false" afterPath="$PROJECT_DIR$/Oblig/Oblig_2/Oppgave4.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Oblig/Oblig_2/Oppgave5.py" beforeDir="false" afterPath="$PROJECT_DIR$/Oblig/Oblig_2/Oppgave5.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Oblig/Oblig_2/Oppgave6.py" beforeDir="false" afterPath="$PROJECT_DIR$/Oblig/Oblig_2/Oppgave6.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Oblig/Oblig_2/OppgaveBonus1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Oblig/Oblig_2/OppgaveBonus1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Oblig/Oblig_2/OppgaveBonus2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Oblig/Oblig_2/OppgaveBonus2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/august/forsøk/fotball2.py" beforeDir="false" afterPath="$PROJECT_DIR$/august/forsøk/fotball2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/august/forsøk/while.py" beforeDir="false" afterPath="$PROJECT_DIR$/august/forsøk/while.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/september/forelesninger/solsystem.py" beforeDir="false" afterPath="$PROJECT_DIR$/september/forelesninger/solsystem.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/august/forelesninger/forelesning 1.py" beforeDir="false" afterPath="$PROJECT_DIR$/8_august/forelesninger/forelesning 1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/august/forelesninger/forelesning_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/8_august/forelesninger/forelesning_2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/august/forsøk/bondesjakk.py" beforeDir="false" afterPath="$PROJECT_DIR$/8_august/forsøk/bondesjakk.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/august/forsøk/dart2.py" beforeDir="false" afterPath="$PROJECT_DIR$/8_august/forsøk/dart2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/august/forsøk/forsøk_oblig2.py" beforeDir="false" afterPath="$PROJECT_DIR$/8_august/forsøk/forsøk_oblig2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/august/forsøk/fotball.py" beforeDir="false" afterPath="$PROJECT_DIR$/8_august/forsøk/fotball.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/august/forsøk/fotball2.py" beforeDir="false" afterPath="$PROJECT_DIR$/8_august/forsøk/fotball2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/august/forsøk/hello_world.py" beforeDir="false" afterPath="$PROJECT_DIR$/8_august/forsøk/hello_world.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/august/forsøk/snorre_masterclass.py" beforeDir="false" afterPath="$PROJECT_DIR$/8_august/forsøk/snorre_masterclass.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/august/forsøk/while.py" beforeDir="false" afterPath="$PROJECT_DIR$/8_august/forsøk/while.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/september/forelesninger/collection_of_dictionaries.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/september/forelesninger/dictionary.py" beforeDir="false" afterPath="$PROJECT_DIR$/9_september/forelesninger/dictionary.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/september/forelesninger/funksjoner.py" beforeDir="false" afterPath="$PROJECT_DIR$/9_september/forelesninger/funksjoner.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/september/forelesninger/if_elif_else.py" beforeDir="false" afterPath="$PROJECT_DIR$/9_september/forelesninger/if_elif_else.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/september/forelesninger/list_slicing.py" beforeDir="false" afterPath="$PROJECT_DIR$/9_september/forelesninger/list_slicing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/september/forelesninger/loops_range.py" beforeDir="false" afterPath="$PROJECT_DIR$/9_september/forelesninger/loops_range.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/september/forelesninger/membership_operators.py" beforeDir="false" afterPath="$PROJECT_DIR$/9_september/forelesninger/membership_operators.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/september/forelesninger/solsystem.py" beforeDir="false" afterPath="$PROJECT_DIR$/9_september/forelesninger/solsystem.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/september/forelesninger/tupler.py" beforeDir="false" afterPath="$PROJECT_DIR$/9_september/forelesninger/tupler.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/september/forelesninger/while_solystem.py" beforeDir="false" afterPath="$PROJECT_DIR$/9_september/forelesninger/while_solystem.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/september/forsøk/oddetall2.py" beforeDir="false" afterPath="$PROJECT_DIR$/10_oktober/forelesninger/file_writing.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +66,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/hakonjunge/Documents/GitHub/python/september/forelesninger/txt&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -58,6 +75,9 @@
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/september/forelesninger/txt" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/september/forelesninger" />
       <recent name="$PROJECT_DIR$/Oblig/Oblig_2" />
@@ -167,6 +187,10 @@
       <workItem from="1663754293083" duration="1175000" />
       <workItem from="1663762952563" duration="12610000" />
       <workItem from="1664266725351" duration="6525000" />
+      <workItem from="1664303083933" duration="175000" />
+      <workItem from="1664440572471" duration="4556000" />
+      <workItem from="1664777783429" duration="160000" />
+      <workItem from="1664778431474" duration="2579000" />
     </task>
     <task id="LOCAL−00001" summary="Oppgave 1">
       <created>1661858581516</created>
@@ -212,18 +236,21 @@
     <SUITE FILE_PATH="coverage/python$Bonus1.coverage" NAME="Bonus1 Coverage Results" MODIFIED="1663664861940" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Oblig/Oblig_2" />
     <SUITE FILE_PATH="coverage/python$fotball2.coverage" NAME="fotball2 Coverage Results" MODIFIED="1663834899738" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/august/forsøk" />
     <SUITE FILE_PATH="coverage/python$oddetall2.coverage" NAME="oddetall2 Coverage Results" MODIFIED="1663059885909" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/august/forsøk" />
-    <SUITE FILE_PATH="coverage/python$collection_of_dictionaries.coverage" NAME="collection_of_dictionaries Coverage Results" MODIFIED="1664276126368" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/september/forelesninger" />
+    <SUITE FILE_PATH="coverage/python$siste_forelesning_sept.coverage" NAME="siste_forelesning_sept Coverage Results" MODIFIED="1664443263845" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/september/forelesninger" />
+    <SUITE FILE_PATH="coverage/python$collection_of_dictionaries.coverage" NAME="collection_of_dictionaries Coverage Results" MODIFIED="1664441157649" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/september/forelesninger" />
     <SUITE FILE_PATH="coverage/python$loops_range.coverage" NAME="loops_range Coverage Results" MODIFIED="1663061451445" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/september/forelesninger" />
     <SUITE FILE_PATH="coverage/python$dart2.coverage" NAME="dart2 Coverage Results" MODIFIED="1662543833559" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/august/forsøk" />
+    <SUITE FILE_PATH="coverage/python$file.coverage" NAME="file Coverage Results" MODIFIED="1664445467569" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/september/forelesninger" />
     <SUITE FILE_PATH="coverage/python$dictionary.coverage" NAME="dictionary Coverage Results" MODIFIED="1663677700825" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/september/forelesninger" />
     <SUITE FILE_PATH="coverage/python$fotball.coverage" NAME="fotball Coverage Results" MODIFIED="1663063740015" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/august/forsøk" />
     <SUITE FILE_PATH="coverage/python$bondesjakk.coverage" NAME="bondesjakk Coverage Results" MODIFIED="1662474710013" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/august/forsøk" />
     <SUITE FILE_PATH="coverage/python$Oppgave2.coverage" NAME="Oppgave2 Coverage Results" MODIFIED="1663746193782" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Oblig/Oblig_2" />
     <SUITE FILE_PATH="coverage/python$OppgaveBonus1.coverage" NAME="OppgaveBonus1 Coverage Results" MODIFIED="1663753523716" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Oblig/Oblig_2" />
     <SUITE FILE_PATH="coverage/python$membership_operators.coverage" NAME="membership_operators Coverage Results" MODIFIED="1663057459225" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/september/forelesninger" />
-    <SUITE FILE_PATH="coverage/python$solsystem.coverage" NAME="solsystem Coverage Results" MODIFIED="1664269586615" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/september/forelesninger" />
-    <SUITE FILE_PATH="coverage/python$forelesing_1.coverage" NAME="forelesing 1 Coverage Results" MODIFIED="1663763054961" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/august" />
+    <SUITE FILE_PATH="coverage/python$solsystem.coverage" NAME="solsystem Coverage Results" MODIFIED="1664871725817" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/9_september/forelesninger" />
+    <SUITE FILE_PATH="coverage/python$forelesing_1.coverage" NAME="forelesing 1 Coverage Results" MODIFIED="1664440880400" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/august" />
     <SUITE FILE_PATH="coverage/python$dart2forsok.coverage" NAME="dart2forsok Coverage Results" MODIFIED="1663059583874" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/september/forsøk" />
+    <SUITE FILE_PATH="coverage/python$Oppgave_2.coverage" NAME="Oppgave_2 Coverage Results" MODIFIED="1664780097827" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Oblig/Oblig_3" />
     <SUITE FILE_PATH="coverage/python$list_slicing.coverage" NAME="list_slicing Coverage Results" MODIFIED="1663663263102" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/september/forelesninger" />
     <SUITE FILE_PATH="coverage/python$snorre_masterclass.coverage" NAME="snorre_masterclass Coverage Results" MODIFIED="1662472581947" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/august/forsøk" />
     <SUITE FILE_PATH="coverage/python$while.coverage" NAME="while Coverage Results" MODIFIED="1663770644589" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/august/forsøk" />
@@ -237,9 +264,11 @@
     <SUITE FILE_PATH="coverage/python$Oppgave1.coverage" NAME="Oppgave1 Coverage Results" MODIFIED="1663764032574" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Oblig/Oblig_2" />
     <SUITE FILE_PATH="coverage/python$tupler.coverage" NAME="tupler Coverage Results" MODIFIED="1663664243323" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/september/forelesninger" />
     <SUITE FILE_PATH="coverage/python$dart_301.coverage" NAME="dart_301 Coverage Results" MODIFIED="1663059679869" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/september/forsøk" />
+    <SUITE FILE_PATH="coverage/python$file_writing.coverage" NAME="file_writing Coverage Results" MODIFIED="1664871936736" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/10_oktober/forelesninger" />
     <SUITE FILE_PATH="coverage/python$dart.coverage" NAME="dart Coverage Results" MODIFIED="1662548761659" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/august/forsøk" />
     <SUITE FILE_PATH="coverage/python$while_solystem.coverage" NAME="while_solystem Coverage Results" MODIFIED="1663235643295" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/september/forelesninger" />
     <SUITE FILE_PATH="coverage/python$oddetall.coverage" NAME="oddetall Coverage Results" MODIFIED="1663061543894" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/september/forsøk" />
+    <SUITE FILE_PATH="coverage/python$Oppgave_1.coverage" NAME="Oppgave_1 Coverage Results" MODIFIED="1664779347307" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Oblig/Oblig_3" />
     <SUITE FILE_PATH="coverage/python$Bonus2.coverage" NAME="Bonus2 Coverage Results" MODIFIED="1663667224147" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Oblig/Oblig_2" />
   </component>
 </project>
