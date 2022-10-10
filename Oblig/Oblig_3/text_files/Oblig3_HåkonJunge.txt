@@ -1,0 +1,16 @@
+Teorioppgave 1:
+Beskriv med egne ord hva en dictionary er i python og forklar forskjellen på disse og vanlige lister.
+
+En dictionary er en slags liste der du definerer element, som {"Navn": "Håkon"}
+Det som skiller et dictionary fra en liste er den kule parentesen "{}"
+fordelen med en dictionary er at det sparer mye plass. det å slippe å lage en list for film 1 og en ny liste for film 2
+
+
+Teorioppgave 2:
+Fokuser på hva funksjoner gjør og hvordan de kan benyttes,
+og hvilke effekter bruken av disse har på hvordan en programmerer kan skrive, lese og opprettholde kode.
+
+En funksjon brukes for å definere et navn på et stykke kode, som kan brukes flere ganger.
+Man oppretter parametre som du bestemmer verdien på.
+samme funksjon kan ha forskjellige verdier uavhengig av hverandre
+bruken av funksjoner sparer veldig mye plass
