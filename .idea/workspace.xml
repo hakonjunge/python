@@ -5,12 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="db25775f-eb7d-4032-afb9-3ebb1aff894d" name="Changes" comment="Oppgave 1">
-      <change afterPath="$PROJECT_DIR$/10_oktober/forsøk/blackjack kort.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10_oktober/forsøk/blackjack.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10_oktober/forsøk/filmer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10_oktober/forsøk/hangman/hangman.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10_oktober/forsøk/hangman/hangman_2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10_oktober/forsøk/bjsave.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/10_oktober/forsøk/blackjack-pro.py" beforeDir="false" afterPath="$PROJECT_DIR$/10_oktober/forsøk/blackjack-pro.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -171,6 +168,7 @@
       <workItem from="1665662271700" duration="3699000" />
       <workItem from="1665691319433" duration="14898000" />
       <workItem from="1666128595904" duration="1688000" />
+      <workItem from="1666182747157" duration="2653000" />
     </task>
     <task id="LOCAL−00001" summary="Oppgave 1">
       <created>1661858581516</created>
@@ -212,7 +210,7 @@
     <SUITE FILE_PATH="coverage/python$fotball2.coverage" NAME="fotball2 Coverage Results" MODIFIED="1663834899738" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/august/forsøk" />
     <SUITE FILE_PATH="coverage/python$oddetall2.coverage" NAME="oddetall2 Coverage Results" MODIFIED="1663059885909" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/august/forsøk" />
     <SUITE FILE_PATH="coverage/python$loops_range.coverage" NAME="loops_range Coverage Results" MODIFIED="1663061451445" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/september/forelesninger" />
-    <SUITE FILE_PATH="coverage/python$blackjack_kort.coverage" NAME="blackjack kort Coverage Results" MODIFIED="1666128780080" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/10_oktober/forsøk" />
+    <SUITE FILE_PATH="coverage/python$blackjack_kort.coverage" NAME="blackjack kort Coverage Results" MODIFIED="1666183153178" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/10_oktober/forsøk" />
     <SUITE FILE_PATH="coverage/python$dart2.coverage" NAME="dart2 Coverage Results" MODIFIED="1662543833559" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/august/forsøk" />
     <SUITE FILE_PATH="coverage/python$file.coverage" NAME="file Coverage Results" MODIFIED="1664445467569" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/september/forelesninger" />
     <SUITE FILE_PATH="coverage/python$json_filehandling_v2.coverage" NAME="json_filehandling_v2 Coverage Results" MODIFIED="1664877344985" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/10_oktober/forelesninger" />
@@ -224,6 +222,7 @@
     <SUITE FILE_PATH="coverage/python$Oppgave_5.coverage" NAME="Oppgave_5 Coverage Results" MODIFIED="1665156021748" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Oblig/Oblig_3" />
     <SUITE FILE_PATH="coverage/python$Oppgave_52.coverage" NAME="Oppgave_52 Coverage Results" MODIFIED="1665143827956" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Oblig/Oblig_3" />
     <SUITE FILE_PATH="coverage/python$solsystem.coverage" NAME="solsystem Coverage Results" MODIFIED="1664871725817" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/9_september/forelesninger" />
+    <SUITE FILE_PATH="coverage/python$blackjack_pro.coverage" NAME="blackjack-pro Coverage Results" MODIFIED="1666255449342" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/10_oktober/forsøk" />
     <SUITE FILE_PATH="coverage/python$list_slicing.coverage" NAME="list_slicing Coverage Results" MODIFIED="1663663263102" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/september/forelesninger" />
     <SUITE FILE_PATH="coverage/python$Oppgave5.coverage" NAME="Oppgave5 Coverage Results" MODIFIED="1663769686565" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Oblig/Oblig_2" />
     <SUITE FILE_PATH="coverage/python$objekter.coverage" NAME="objekter Coverage Results" MODIFIED="1665048329102" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/10_oktober/forelesninger" />

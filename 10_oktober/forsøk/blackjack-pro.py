@@ -1,11 +1,11 @@
 import random
 
-suits = ["hearts", "clubs", "dimond", "spades"]
+suits = ["hjerter", "kløver", "ruter", "spar"]
 
-values = {"two": 2, "three": 3, "four": 4, "five": 5, "six": 6, "seven": 7, "eight": 8, "nine": 9,
-          "ten": 10, "jack": 10, "queen": 10, "king": 10, "ace": 11}
+values = {"to": 2, "tre": 3, "fire": 4, "fem": 5, "seks": 6, "syv": 7, "åtte": 8, "ni": 9,
+          "ti": 10, "knekt": 10, "dame": 10, "konge": 10, "ess": 11}
 
-ranks = ["two", "three", "four", "five", "six", "seven", "eight", "nine", "ten", "jack", "queen", "king", "ace"]
+ranks = ["to", "tre", "fire", "fem", "seks", "syv", "åtte", "ni", "ti", "knekt", "dame", "konge", "ess"]
 
 
 class Card:
@@ -15,7 +15,7 @@ class Card:
         self.value = values[rank]
 
     def __str__(self):
-        return f"{self.rank} of {self.suit}"
+        return f"{self.suit} {self.rank}"
 
 
 class Deck:
@@ -44,7 +44,7 @@ class Participent:
         value = 0
         found = False
         for card in self.hand:
-            if card.rank == "ace" and not found:
+            if card.rank == "ess" and not found:
                 found = True
                 continue
             value += card.value
@@ -70,7 +70,7 @@ class Player(Participent):
 
     def bet(self, bet):
         if bet > self.money:
-            print(f"You have {self.money}$ left")
+            print(f"Du har {self.money} chipper igjen")
             return False
         return True
 
@@ -82,10 +82,10 @@ class Player(Participent):
 
     def money_status(self):
         if self.money == 0:
-            print("You have no money left.")
+            print("Du har ingen chipper igjen")
             return False
         else:
-            print(f"\nYou have {self.money}$.\n")
+            print(f"\nDu har {self.money}\n")
             return True
 
 
@@ -97,7 +97,7 @@ class Dealer(Participent):
 def gamesetup():
     try:
         f = open("bjsave.txt", "x")
-        name = input("you have no save files pick a name: ")
+        name = input("Du har ingen lagret save-fil.\nVelg et navn: ")
         f.close()
         f = open("bjsave.txt", "w")
         f.write(name + "\n100")
@@ -107,20 +107,20 @@ def gamesetup():
         name = f.readline().replace("\n", "")
         cash = int(f.readline().replace("\n", ""))
         f.close()
-        new = input(f"do you want to laod the saved file: name: {name}, $:{cash}: ").upper()
+        new = input(f"\nØnsker du å fortsette der du slapp? \nFremgang er lagret på: {name}, med {cash} chipper igjen \n(Y/N) ").upper()
         if new == "Y":
             return Player(name, cash)
         else:
-            name = input("what is your name?: ")
+            name = input("Hva heter du?  ")
             return Player(name)
 
 
 def bet(player):
     while True:
         try:
-            inp = int(input("how much do you want to bet?: "))
+            inp = int(input("Hvor mye ønsker du å bette "))
         except:
-            print("give a valid number")
+            print("Tallet du skrev er ugyldig, prøv igjen ")
             continue
         if not player.bet(inp) or inp < 1:
             continue
@@ -130,13 +130,13 @@ def bet(player):
 
 def hit_or_stand(player, deck):
     while True:
-        inp = input("Do You want to hit or stand?(H/S):").upper()
+        inp = input("\nSlå til eller stå? \n(H/S) ").upper()
         if inp == "H":
             player.deal_hand(deck.deal_one())
             hand = ""
             for x in player.hand:
                 hand += f" {x}"
-            print(f"your hand is {hand}, with a value of {player.hand_value()}")
+            print(f"Hånden din er {hand}, med en verdi på {player.hand_value()}")
         if player.hand_value() > 21:
             return False
         if inp == "S":
@@ -145,9 +145,9 @@ def hit_or_stand(player, deck):
 
 def play_again():
     while True:
-        inp = input("do you want to play again?(Y,N): ").upper()
-        if inp in ["Y", "N"]:
-            if inp == "Y":
+        inp = input("\nVil du spille igjen? \n(J/N) ").upper()
+        if inp in ["J", "N"]:
+            if inp == "J":
                 return True
             else:
                 return False
@@ -157,9 +157,9 @@ def play_again():
 
 def save(player_obj):
     while True:
-        inp = input("do you want to save your progress?(Y,N): ").upper()
-        if inp in ["Y", "N"]:
-            if inp == "Y":
+        inp = input("\nØnsker du å lagre fremgangen din? \n(J,N) ").upper()
+        if inp in ["J", "N"]:
+            if inp == "J":
                 f = open("bjsave.txt", "w")
                 f.write(player_obj.name + "\n" + str(player_obj.money))
                 f.close()
@@ -173,7 +173,7 @@ def save(player_obj):
 """"""
 
 player_obj = gamesetup()
-print(f"ok you are playing as {player_obj.name} you have {player_obj.money}$. \n")
+print(f"\nDu spiller som {player_obj.name} du har {player_obj.money} chippen \n")
 
 game_on = True
 while game_on:
@@ -191,37 +191,37 @@ while game_on:
 
     player_obj.setup(my_deck)
 
-    print(f"Dealers first card is {dealer_obj.hand[0]} with a value of {dealer_obj.hand[0].value}")
+    print(f"\nDealerens første kort er {dealer_obj.hand[0]} med en verdi på {dealer_obj.hand[0].value}")
 
-    print(f"You'r cards are {player_obj.hand[0]} and {player_obj.hand[1]} with a value of {player_obj.hand_value()}")
+    print(f"\nDine kort er {player_obj.hand[0]} og {player_obj.hand[1]} med en verdi på {player_obj.hand_value()}")
 
     if player_obj.hand_value() == dealer_obj.hand_value() == 21:
-        print("Blackjack!! but the dealer had aswell so its a draw :(")
+        print("BLACKJACK! ......Men dealeren har også det då da ble det likt")
         continue
     elif player_obj.hand_value() == 21 != dealer_obj.hand_value():
-        print("Blackjack!!")
+        print("BLACKJACK!")
         player_obj.gain_money(player_bet)
     else:
         if not hit_or_stand(player_obj, my_deck):
-            print("you lose!")
+            print("Du tapte")
             player_obj.loose_money(player_bet)
         else:
-            print("dealers cards are:")
+            print("Dealerens kort er:")
             print(dealer_obj.print_hand())
             while True:
                 if dealer_obj.hand_value() < 17:
-                    print("dealer is drawing card:")
+                    print("Dealeren trekker et kort")
                     dealer_obj.deal_hand(my_deck.deal_one())
                     print(dealer_obj.print_hand())
                 else:
                     break
-            print(f"dealers cards are valued {dealer_obj.hand_value()} ")
+            print(f"\nDealerens kort har en verdi på {dealer_obj.hand_value()} ")
 
             if player_obj.hand_value() > dealer_obj.hand_value() and player_obj.hand_value() <= 21 or dealer_obj.hand_value() > 21:
-                print("You win!")
+                print("Du vant!")
                 player_obj.gain_money(player_bet)
             else:
-                print("You lose!")
+                print("Du tapte")
                 player_obj.loose_money(player_bet)
 
     if not player_obj.money_status():
@@ -229,4 +229,4 @@ while game_on:
     game_on = play_again()
 
 save(player_obj)
-print(f"GG's {player_obj.name}")
+print(f"GG ez {player_obj.name}")
