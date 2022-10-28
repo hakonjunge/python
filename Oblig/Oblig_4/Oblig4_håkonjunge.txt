@@ -1,0 +1,41 @@
+Oppgave 1 - Exception
+Forklar hva en exception er, hvordan vi kan håndtere dem og i hvilke tilfeller slik håndtering kan være relevant.
+
+Når du kjører et script og du for eksempel har en input med int, og du skriver en bokstav, hører du til å få en error.
+Med exception-kommandoen, unngår du det, den tar i mot en beskjed om at dersom erroren oppstår så utfører scriptet den
+oppgaven du sier den skal.
+Eksempelvis at du skal hente ut en fil, så bør du ha en except for dersom ikke filen finnes, så kan den opprette en fil
+eller du kan prøve å hente ut fra en annen fil.
+
+Oppgave 2 - Klasse
+Forklar med egne ord hva en klasse er. Gi gjerne et enkelt eksempel eller to.
+
+En klasse er en "blueprint" for hvordan ojekter lages, det kan være litt som at den bestemmer en kategori og så kan
+objektene fylle dem med hva de vil.
+
+eksempel:
+    class Filmer:
+        def __init__(self, tittel, utgivelsesår, score):
+            self.tittel = tittel
+            self.utgivelsesår = utgivelsesår
+            self.score = score
+
+    Filmer_1 = Filmer("Inception", "2010", 8.8)
+    print(Filmer_1.tittel)
+
+Her har vi laget en klasse for filmer og bestemt at det ene objektet "Filmer_1" skal være inception som ble laget i 2010
+ og har en score på 8.8.
+
+Oppgave 3 - Objekt
+Forklar med egne ord hva et objekt er, og hva dets relasjon til klasser er.
+
+Objekt er hva som definerer verdiene i klassen. Eksempelvis i oppgaven over er Filmer_1 objektet.
+Klassen er kategorien og malen mens objektet må følge dette.
+
+Programmeringsoppgave 2 - Dokumentasjon
+I programmeringsoppgave 2 skal du skrive et relativt omfattende program. Underveis/etter du har skrevet dette programmet
+skal du her skrive litt om hvordan du har jobbet med denne oppgaven og kommet frem til din løsning. Dette gjelder spesielt
+hvis du sliter med noe underveis, hvor du burde dokumentere hva du slet med og hva du forsøkte å gjøre for å komme videre.
+Reflekter også hva som kunne vært bedre med din løsning og fremgangsmetode. Du trenger ikke skrive en bok i lengde,
+men det er nok naturlig å ende opp med i alle fall en half side tekst for denne dokumentasjonen.
+
