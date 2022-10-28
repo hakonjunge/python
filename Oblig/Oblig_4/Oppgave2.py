@@ -3,11 +3,11 @@ import random
 symboler = ["hjerter", "kløver", "ruter", "spar"]
 
 verdier = {"to": 2, "tre": 3, "fire": 4, "fem": 5, "seks": 6, "syv": 7, "åtte": 8, "ni": 9,
-          "ti": 10, "knekt": 10, "dame": 10, "konge": 10, "ess": 11}
+           "ti": 10, "knekt": 10, "dame": 10, "konge": 10, "ess": 11}
 
 korttall = ["to", "tre", "fire", "fem", "seks", "syv", "åtte", "ni", "ti", "knekt", "dame", "konge", "ess"]
 
-
+#Skrev ikke så mange kommentarer i begynnelsen, har skrevet litt om koden i dokumantasjonsoppgaven
 class Kort:
     def __init__(self, suit, rank):
         self.synbol = suit
@@ -107,7 +107,7 @@ class Dealer(Deltaker):
         self.hand = []
 
 
-def gamesetup():
+def gameSetup():
     try:
         f = open("../../Oblig/Oblig_4/blackjackfremgang.txt", "x")
         name = input("Du har ingen lagret save-fil.\nVelg et navn: ")
@@ -139,6 +139,7 @@ def hit_or_stand(player, deck):
                 hand += f" {x}"
             print(f"Hånden din er {hand}, med en verdi på {player.hand_value()}")
         if player.hand_value() > 21:
+            # Du har mulighet å hitte eller å stå så lenge den samlede verdien av alle kortene dine er mindre enn 21
             return False
         if inp == "S":
             return True
@@ -146,6 +147,8 @@ def hit_or_stand(player, deck):
 
 def spilleIgjen():
     while True:
+        #Gamblers fallacy: det å tro at en bestemt hendelse inntreffer oftere enn normalt
+        #Denne funksjonen starter bare hele loopen om igjen
         inp = input("\nVil du spille igjen? \n(J/N) ").upper()
         if inp in ["J", "N"]:
             if inp == "J":
@@ -157,10 +160,14 @@ def spilleIgjen():
 
 
 def lagre(player_obj):
+    #Denne funksjonen er her for å lagre fremgangen
     while True:
         inp = input("\nØnsker du å lagre fremgangen din? \n(J,N) ").upper()
         if inp in ["J", "N"]:
+            #Det er ikke alle som liker å miste alle chippene sine,
+            # så jeg ga dere valget om dere ønsker å lagre eller ikke
             if inp == "J":
+                #Her brukes tekstfila som har blitt laget i gameSetup
                 f = open("../../Oblig/Oblig_4/blackjackfremgang.txt", "w")
                 f.write(player_obj.name + "\n" + str(player_obj.money))
                 f.close()
@@ -173,11 +180,12 @@ def lagre(player_obj):
 
 """"""
 
-player_obj = gamesetup()
+player_obj = gameSetup()
 print(f"\nDu spiller som {player_obj.name} du har {player_obj.money} chipper \n")
 
 game_on = True
 while game_on:
+    #her er det game on. Her lager jeg variabler av funksjonene til videre bruk
     player_obj.hand = []
 
     dealer_obj = Dealer()

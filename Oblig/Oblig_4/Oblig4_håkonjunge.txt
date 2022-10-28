@@ -1,6 +1,4 @@
 Oppgave 1 - Exception
-Forklar hva en exception er, hvordan vi kan håndtere dem og i hvilke tilfeller slik håndtering kan være relevant.
-
 Når du kjører et script og du for eksempel har en input med int, og du skriver en bokstav, hører du til å få en error.
 Med exception-kommandoen, unngår du det, den tar i mot en beskjed om at dersom erroren oppstår så utfører scriptet den
 oppgaven du sier den skal.
@@ -8,8 +6,6 @@ Eksempelvis at du skal hente ut en fil, så bør du ha en except for dersom ikke
 eller du kan prøve å hente ut fra en annen fil.
 
 Oppgave 2 - Klasse
-Forklar med egne ord hva en klasse er. Gi gjerne et enkelt eksempel eller to.
-
 En klasse er en "blueprint" for hvordan ojekter lages, det kan være litt som at den bestemmer en kategori og så kan
 objektene fylle dem med hva de vil.
 
@@ -27,15 +23,33 @@ Her har vi laget en klasse for filmer og bestemt at det ene objektet "Filmer_1" 
  og har en score på 8.8.
 
 Oppgave 3 - Objekt
-Forklar med egne ord hva et objekt er, og hva dets relasjon til klasser er.
-
 Objekt er hva som definerer verdiene i klassen. Eksempelvis i oppgaven over er Filmer_1 objektet.
 Klassen er kategorien og malen mens objektet må følge dette.
 
 Programmeringsoppgave 2 - Dokumentasjon
-I programmeringsoppgave 2 skal du skrive et relativt omfattende program. Underveis/etter du har skrevet dette programmet
-skal du her skrive litt om hvordan du har jobbet med denne oppgaven og kommet frem til din løsning. Dette gjelder spesielt
-hvis du sliter med noe underveis, hvor du burde dokumentere hva du slet med og hva du forsøkte å gjøre for å komme videre.
-Reflekter også hva som kunne vært bedre med din løsning og fremgangsmetode. Du trenger ikke skrive en bok i lengde,
-men det er nok naturlig å ende opp med i alle fall en half side tekst for denne dokumentasjonen.
+Da jeg skulle gjøre oppgave 2 laget jeg en liten liste med hva som i bunn og grunn skulle med i spillet. Det første jeg
+gjorde var å lage kortstokken for å lage kortene. Så lagde jeg en funksjon som hentet ut et tilfeldig kort, og la det til
+i en tom liste. Denne tomme listen var parameter i en annen funksjon som regnet om verdien dersom kortet var 11,12,13 eller 1.
+I begynnelsen gikk jeg for at 1 (ess) skulle ha en verdi på 1 dersom de to utdelte kortenes samlede verdi var over 14
+men gikk senere over til at kortet er verdt 11 så lenge den samlede verdien er lik eller mindre enn 21.
 
+Jeg startet med å lage et blackjackspill kraftig inspirert av en youtube-veiledning, men tok en helomvending og laget et
+klasse-basert script med mulighet å lagre fremgangen.
+I dette tilfellet har jeg en liste for kort-symbol, en for verdier, i en dictionary, og en for korttall.
+Jeg lagde en klasse for kortstokk, med flere funksjoner inni. Da det funket bra, lagde jeg en klasse for deltaker og la
+funksjonene inni der. En av funksjonene jeg har inni er hand_value, den regner sammen verdien fra kortene som blir plukket
+ut fra kortstokken. Den fungerte så bra i den første versjonen av blackjack som jeg brukte at jeg ikke gadd å skrive den om.
+Det meste andre gikk ganske greit, konseptet med chipper hadde jeg brukt i den forrige versjonen så det og var ganske straight forward.
+Denne gangen brukte jeg except og try i plassen for if else. Noe som fungerte bra.
+Funksjonen gameSetup var et mareritt.
+Ingenting ville sammarbeide, men det jeg egentlig slet med var filnavn. Det ble mange feilmeldinger,
+og «f = open("../../Oblig/Oblig_4/blackjackfremgang.txt", "x")» er nok unødvendig lang.
+Jeg la til en except for dersom du ikke hadde noen lagret fremgang.
+I tillegg hadde jeg ikke med open file helt øverst i try, så det ble aldri behov for except,
+siden det aldri kom noen feilmelding på det.
+En ting til er at når det ikke er en textfil med navn blackjackfremgang.txt så opprettes den og du får «lage en bruker».
+Etter du har gjort det får du automatisk 100 chipper.
+Det neste som skjer da er at du får en feilmelding på AttributeError. Det fikk jeg ikke fikset. Men dersom du runner
+scriptet på ny etterpå vil du se at det har blitt opprettet en ny bruker med det navnet du skrev, med 100 chipper.
+Poengsystemet er ganske greit. Ganske rett fram. Og dersom jeg husker rett skal du kun få dobbelt opp med poeng dersom
+du får 21 på de to første kortene som blir delt ut. Blir totalsummen av for eksempel fire kort 21, så teller det kun som seier på poeng.

@@ -5,18 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="db25775f-eb7d-4032-afb9-3ebb1aff894d" name="Changes" comment="Oppgave 1">
-      <change afterPath="$PROJECT_DIR$/.idea/other.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10_oktober/forelesninger/dear pygui.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10_oktober/forelesninger/dearpygui_child_window.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10_oktober/forelesninger/positioning.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10_oktober/forsøk/blackjack-kombo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10_oktober/forsøk/sjakk.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Oblig/Oblig_4/Oblig4_håkonjunge.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Oblig/Oblig_4/Oppgave1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/python.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/python.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/10_oktober/forsøk/bjsave.txt" beforeDir="false" afterPath="$PROJECT_DIR$/10_oktober/forsøk/bjsave.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/10_oktober/forsøk/blackjack-pro.py" beforeDir="false" afterPath="$PROJECT_DIR$/Oblig/Oblig_4/Oppgave2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Oblig/Oblig_4/Oblig4_håkonjunge.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Oblig/Oblig_4/Oblig4_håkonjunge.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Oblig/Oblig_4/Oppgave1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Oblig/Oblig_4/Oppgave1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Oblig/Oblig_4/Oppgave2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Oblig/Oblig_4/Oppgave2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Oblig/Oblig_4/blackjackfremgang.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -205,7 +198,7 @@
       <workItem from="1666685766952" duration="3719000" />
       <workItem from="1666772707436" duration="796000" />
       <workItem from="1666890627150" duration="318000" />
-      <workItem from="1666945610477" duration="10553000" />
+      <workItem from="1666945610477" duration="13687000" />
     </task>
     <task id="LOCAL−00001" summary="Oppgave 1">
       <created>1661858581516</created>
